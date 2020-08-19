@@ -1,11 +1,11 @@
 # 这里是淼淼的博客
 
 > 这里是[友链](//Other/友链.html)
-> 传送到[旧博客](https://www.cnblogs.com/mxxr)~~(虽然也没几篇)~~
+> 这里是[淼淼在cnblogs](https://www.cnblogs.com/mxxr)
 
 ## 这里是废话
 
-欢迎各位小哥哥&小姐姐+Q: [3218900047](tencent://message/?uin=3218900047&Site=&Menu=yes)(麻烦备注下学校&ID鸭
+<font size="5">萌新妹子刚学OI</font>欢迎各位小哥哥&小姐姐+Q: [3218900047](tencent://message/?uin=3218900047&Site=&Menu=yes)(麻烦备注下学校&ID鸭
 
 淼淼入坑以来的代码都存在[GitHub](https://github.com/MXR612/OI-log)里面, 可能一些没有写博客的题目都能在里面找到代码. (大部分都没写博客吧?)
 

@@ -2,8 +2,7 @@
 <center>
 <font size="8">
 
-<font color="#FF0000">快</font><font color="#E3001C">七</font><font color="#C70038">夕</font><font color="#AB0054">了</font><font color="#8F0070"> </font><font color="#73008C">求</font><font color="#5700A8">个</font><font color="#3B00C4">妹</font><font color="#1F00E0">子</font>
-
+[<font color="#FF0000">快</font><font color="#E3001C">七</font><font color="#C70038">夕</font><font color="#AB0054">了</font><font color="#8F0070"> </font><font color="#73008C">求</font><font color="#5700A8">个</font><font color="#3B00C4">妹</font><font color="#1F00E0">子</font>](tencent://message/?uin=3218900047&Site=&Menu=yes)
 </font>
 </center>
 

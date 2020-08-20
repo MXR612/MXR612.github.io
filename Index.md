@@ -1,3 +1,13 @@
+
+<center>
+<font size="8">
+
+快七夕了
+求个妹子
+
+</font>
+</center>
+
 # 这里是MXR612的博客
 
 > [快速旅行到 "友链"](//Other/友链.html)
@@ -40,3 +50,12 @@
 ## 这里是学习笔记
 
 ~~但是我不喜欢学习~~
+
+<center>
+<font size="8">
+
+想多了吧
+OI无妹子
+
+</font>
+</center>

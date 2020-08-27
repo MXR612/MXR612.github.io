@@ -1,11 +1,3 @@
-
-<center>
-<font size="8">
-
-[<font color="#FF0000">快</font><font color="#E3001C">七</font><font color="#C70038">夕</font><font color="#AB0054">了</font><font color="#8F0070"> </font><font color="#73008C">求</font><font color="#5700A8">个</font><font color="#3B00C4">妹</font><font color="#1F00E0">子</font>](tencent://message/?uin=3218900047&Site=&Menu=yes)
-</font>
-</center>
-
 # 这里是MXR612的博客
 
 > [快速旅行到 "友链"](//Other/友链.html)
@@ -52,11 +44,3 @@
 ## 这里是学习笔记
 
 ~~但是我不喜欢学习~~
-
-<center>
-<font size="1">
-
-想多了吧 OI无妹子
-
-</font>
-</center>

@@ -9,6 +9,8 @@
 
 ## 这里是废话
 
+[![](http://cfrating.ihcr.top/?user=MXR612)](https://codeforces.com/profile/MXR612)
+
 <font size="5">萌新妹子刚学OI</font>欢迎各位小哥哥&小姐姐+Q: [3218900047](tencent://message/?uin=3218900047&Site=&Menu=yes)(麻烦备注下学校&ID鸭
 
 淼淼入坑以来的代码都存在[GitHub](https://github.com/MXR612/OI-log)里面, 可能一些没有写博客的题目都能在里面找到代码. (大部分都没写博客吧?)

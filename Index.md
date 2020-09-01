@@ -1,6 +1,7 @@
 # 这里是MXR612的博客
 
 > [快速旅行到 "友链"](//Other/友链.html)
+> [快速旅行到ToDo](//index/ToDo.html)
 > [快速旅行到 "MXR612在cnblogs"](https://www.cnblogs.com/mxxr)
 > [快速旅行到 "废话"](#这里是废话)
 > [快速旅行到 "游记"](#这里是游记)

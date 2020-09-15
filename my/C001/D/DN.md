@@ -35,5 +35,7 @@ m2
 
 ### 数据范围
 
-5pts：$a,b$均为空串
-对于100%的数据，$length_a,length_b \leq 10^6$
+0. 05pts：$a,b$均为空串
+1. 95pts：无特殊要求
+
+对于全部数据，$length_a,length_b \leq 10^6$

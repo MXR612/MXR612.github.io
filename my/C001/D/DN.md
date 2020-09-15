@@ -36,6 +36,8 @@ m2
 ### 数据范围
 
 0. 05pts：$a,b$均为空串
-1. 95pts：无特殊要求
+1. 25pts：$length_a,length_b \leq 10$
+2. 30pts：$length_a\leq 50$
+3. 40pts：无特殊要求
 
 对于全部数据，$length_a,length_b \leq 10^6$

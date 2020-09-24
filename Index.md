@@ -1,4 +1,6 @@
-# 这里是MXR612的博客
+# 这里是mxr612的博客
+
+[![](http://cfrating.ihcr.top/?user=MXR612)](https://codeforces.com/profile/MXR612)
 
 > [快速旅行到 "友链"](//Other/友链.html)
 > [快速旅行到ToDo](//index/ToDo.html)
@@ -7,25 +9,6 @@
 > [快速旅行到 "游记"](#这里是游记)
 > [快速旅行到 "题解"](#这里是题解)
 > [快速旅行到 "学习笔记"](#这里是学习笔记)
-
-## 这里是废话
-
-[![](http://cfrating.ihcr.top/?user=MXR612)](https://codeforces.com/profile/MXR612)
-
-<font size="5">萌新妹子刚学OI</font>欢迎各位小哥哥&小姐姐+Q: [3218900047](tencent://message/?uin=3218900047&Site=&Menu=yes)(麻烦备注下学校&ID鸭
-
-淼淼入坑以来的代码都存在[GitHub](https://github.com/MXR612/OI-log)里面, 可能一些没有写博客的题目都能在里面找到代码. (大部分都没写博客吧?)
-
-开这个博客的原因是在cnblogs发[某一篇博客](//Blog/2020.08.19/LOJ6089.html)的时候, 我作为创作者以第一人称视角体验了何谓"对审核力量的恐惧".
-
-<center>
-
-![](files/本性爱咕.png)
-![](files/性爱.png)
-
-</center>
-
-**"我还是尽可能地想做那根站稳了的骨牌。"**
 
 ## 这里是游记
 
@@ -47,3 +30,20 @@
 ## 这里是学习笔记
 
 [~~但是我不喜欢学习~~](//index/板题.html)
+
+## 这里是废话
+
+<font size="5">萌新妹子刚学OI</font>欢迎各位小哥哥&小姐姐+Q: [3218900047](tencent://message/?uin=3218900047&Site=&Menu=yes)(麻烦备注下学校&ID鸭
+
+淼淼入坑以来的代码都存在[GitHub](https://github.com/MXR612/OI-log)里面, 可能一些没有写博客的题目都能在里面找到代码. (大部分都没写博客吧?)
+
+开这个博客的原因是在cnblogs发[某一篇博客](//Blog/2020.08.19/LOJ6089.html)的时候, 我作为创作者以第一人称视角体验了何谓"对审核力量的恐惧".
+
+<center>
+
+![](files/本性爱咕.png)
+![](files/性爱.png)
+
+</center>
+
+**"我还是尽可能地想做那根站稳了的骨牌。"**

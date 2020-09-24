@@ -33,6 +33,8 @@
 
 [~~但是我不喜欢学习~~](//index/板题.html)
 
+[Note2020.09.22一点数论](/Note/Math/2020.09.22/2020.09.22.html)
+
 ## 这里是废话
 
 <font size="5">萌新妹子刚学OI</font>欢迎各位小哥哥&小姐姐+Q: [3218900047](tencent://message/?uin=3218900047&Site=&Menu=yes)(麻烦备注下学校&ID鸭

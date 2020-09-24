@@ -1,5 +1,7 @@
 # 这里是mxr612的博客
 
+> 彼は来ましたか
+
 [![](http://cfrating.ihcr.top/?user=MXR612)](https://codeforces.com/profile/MXR612)
 
 > [快速旅行到 "友链"](//Other/友链.html)

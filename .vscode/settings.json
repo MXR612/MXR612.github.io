@@ -16,5 +16,9 @@
     "qiniu.secret_key": "v4tFDGI-pzermFYjEkcCT3HceNQbswS9UbkOGJXl",
     "qiniu.bucket": "static",
     "qiniu.remotePath": "shudong/${fileName}",
-    "qiniu.domain": "http://s.shudong.wang"
+    "qiniu.domain": "http://s.shudong.wang",
+    "markdown.extension.completion.root": "https://mxr612.github.io/",
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "markdown.extension.toc.orderedList": true,
+    "markdown.extension.print.onFileSave": true
 }

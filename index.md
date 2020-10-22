@@ -1,6 +1,6 @@
-# [**这里是mxr612的博客**](https://mxr612.github.io/)[^1]
+# 这里是mxr612的博客 
 
-> 彼は来ましたか[^2]
+> 彼は来ましたか[^1]
 
 [![](http:/cfrating.ihcr.top/?user=MXR612)](https:/codeforces.com/profile/MXR612)
 
@@ -44,9 +44,6 @@
 [Note2020.09.22一点数论](Note/Math/2020.09.22/2020.09.22.html)  
 [2020.10.08求一阶二阶线性递推式通项](Note/Math/2020.10.08/2020.10.08.html)
 
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>/<span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>  
 
-
-[^1]: <span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>/<span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>  
-[^2]: 那天我在机房学日语, 余光看到AJ工作室的门开了, 就问旁边的兄弟"他来了吗?". 殊不知, 那时AJ就在我身后.
+[^1]: 那天我在机房学日语, 余光看到AJ工作室的门开了, 就问旁边的兄弟"他来了吗?". 殊不知, 那时AJ就在我身后.

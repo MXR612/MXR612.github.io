@@ -1,6 +1,6 @@
 # 题解
 
-> 标程请在[出题人的Github](https://github.com/MXR612/OI-log/tree/master/my/001)查阅（不建议）
+> 标程请在[出题人的Github](https://github.com/MXR612/OI-log/tree/master/my/001)查阅（陈某慎入）
 
 ## A
 

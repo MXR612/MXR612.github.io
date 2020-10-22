@@ -1,326 +1,70 @@
-<!DOCTYPE html><html><head>
-      <title>SSL-OI2020&#x590F;&#x65E5;&#x5408;&#x5BBF;</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      <style>
-      /**
- * prism.js Github theme based on GitHub's theme.
- * @author Sam Clarke
- */
-code[class*="language-"],
-pre[class*="language-"] {
-  color: #333;
-  background: none;
-  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 1.4;
-
-  -moz-tab-size: 8;
-  -o-tab-size: 8;
-  tab-size: 8;
-
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-  padding: .8em;
-  overflow: auto;
-  /* border: 1px solid #ddd; */
-  border-radius: 3px;
-  /* background: #fff; */
-  background: #f5f5f5;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-  padding: .1em;
-  border-radius: .3em;
-  white-space: normal;
-  background: #f5f5f5;
-}
-
-.token.comment,
-.token.blockquote {
-  color: #969896;
-}
-
-.token.cdata {
-  color: #183691;
-}
-
-.token.doctype,
-.token.punctuation,
-.token.variable,
-.token.macro.property {
-  color: #333;
-}
-
-.token.operator,
-.token.important,
-.token.keyword,
-.token.rule,
-.token.builtin {
-  color: #a71d5d;
-}
-
-.token.string,
-.token.url,
-.token.regex,
-.token.attr-value {
-  color: #183691;
-}
-
-.token.property,
-.token.number,
-.token.boolean,
-.token.entity,
-.token.atrule,
-.token.constant,
-.token.symbol,
-.token.command,
-.token.code {
-  color: #0086b3;
-}
-
-.token.tag,
-.token.selector,
-.token.prolog {
-  color: #63a35c;
-}
-
-.token.function,
-.token.namespace,
-.token.pseudo-element,
-.token.class,
-.token.class-name,
-.token.pseudo-class,
-.token.id,
-.token.url-reference .token.variable,
-.token.attr-name {
-  color: #795da3;
-}
-
-.token.entity {
-  cursor: help;
-}
-
-.token.title,
-.token.title .token.punctuation {
-  font-weight: bold;
-  color: #1d3e81;
-}
-
-.token.list {
-  color: #ed6a43;
-}
-
-.token.inserted {
-  background-color: #eaffea;
-  color: #55a532;
-}
-
-.token.deleted {
-  background-color: #ffecec;
-  color: #bd2c00;
-}
-
-.token.bold {
-  font-weight: bold;
-}
-
-.token.italic {
-  font-style: italic;
-}
-
-
-/* JSON */
-.language-json .token.property {
-  color: #183691;
-}
-
-.language-markup .token.tag .token.punctuation {
-  color: #333;
-}
-
-/* CSS */
-code.language-css,
-.language-css .token.function {
-  color: #0086b3;
-}
-
-/* YAML */
-.language-yaml .token.atrule {
-  color: #63a35c;
-}
-
-code.language-yaml {
-  color: #183691;
-}
-
-/* Ruby */
-.language-ruby .token.function {
-  color: #333;
-}
-
-/* Markdown */
-.language-markdown .token.url {
-  color: #795da3;
-}
-
-/* Makefile */
-.language-makefile .token.symbol {
-  color: #795da3;
-}
-
-.language-makefile .token.variable {
-  color: #183691;
-}
-
-.language-makefile .token.builtin {
-  color: #0086b3;
-}
-
-/* Bash */
-.language-bash .token.keyword {
-  color: #0086b3;
-}
-
-/* highlight */
-pre[data-line] {
-  position: relative;
-  padding: 1em 0 1em 3em;
-}
-pre[data-line] .line-highlight-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: transparent;
-  display: block;
-  width: 100%;
-}
-
-pre[data-line] .line-highlight {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding: inherit 0;
-  margin-top: 1em;
-  background: hsla(24, 20%, 50%,.08);
-  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
-  pointer-events: none;
-  line-height: inherit;
-  white-space: pre;
-}
-
-pre[data-line] .line-highlight:before, 
-pre[data-line] .line-highlight[data-end]:after {
-  content: attr(data-start);
-  position: absolute;
-  top: .4em;
-  left: .6em;
-  min-width: 1em;
-  padding: 0 .5em;
-  background-color: hsla(24, 20%, 50%,.4);
-  color: hsl(24, 20%, 95%);
-  font: bold 65%/1.5 sans-serif;
-  text-align: center;
-  vertical-align: .3em;
-  border-radius: 999px;
-  text-shadow: none;
-  box-shadow: 0 1px white;
-}
-
-pre[data-line] .line-highlight[data-end]:after {
-  content: attr(data-end);
-  top: auto;
-  bottom: .4em;
-}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
-/* Please visit the URL below for more information: */
-/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
-
-      </style>
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>SSL-OI2020夏日合宿</title>
+        <style>
+</style>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+/* * Markdown PDF CSS */ body { width: 890px; margin: 0 auto; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; font-size: 16px; line-height: 1.5; } a { color: #2980b9; } pre { background-color: #f8f8f8; border: none; } blockquote { padding: 0 1em; color: #777; border-left: 0.25em solid #ddd; background: transparent; } .emoji { height: 1.4em; } :not(pre):not(.hljs)>code { color: #c0392b; font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace; font-size: 14px; }
+</style>
+        
+        
     </head>
-    <body for="html-export">
-      <div class="mume markdown-preview  ">
-      <h1 class="mume-header" id="ssl-oi2020%E5%A4%8F%E6%97%A5%E5%90%88%E5%AE%BF">SSL-OI2020&#x590F;&#x65E5;&#x5408;&#x5BBF;</h1>
-
+    <body class="vscode-light">
+        <h1 id="ssl-oi2020夏日合宿">SSL-OI2020夏日合宿</h1>
 <blockquote>
-<p>&#x8FD9;&#x662F;&#x6700;&#x540E;&#x4E00;&#x6B21;&#x590F;&#x65E5;&#x5408;&#x5BBF;&#x4E86;, &#x8981;&#x597D;&#x597D;&#x73CD;&#x60DC;</p>
+<p>这是最后一次夏日合宿了, 要好好珍惜</p>
 </blockquote>
-<h2 class="mume-header" id="%E9%A2%98%E8%A7%A3">&#x9898;&#x89E3;</h2>
-
-<h3 class="mume-header" id="%E6%A8%A1%E6%8B%9F%E8%B5%9B">&#x6A21;&#x62DF;&#x8D5B;</h3>
-
-<p><a href="..\Blog\2020.08.17\SSLOJ2020.8.17A.html">2020.08.17A&#x7EC4;</a><br>
-<a href="..\Blog\2020.08.18\SSLOJ2020.08.18.html">2020.08.18</a><br>
-<a href="..\Blog\2020.08.19\SSLOJ2020.08.19.html">2020.08.19</a><br>
-<a href="..\Blog\2020.08.20\2020.08.20A.html">2020.08.20A&#x7EC4;</a><br>
-<a href="..\Blog\2020.08.21\SSLOJ2020.08.21A.html">2020.08.21A&#x7EC4;</a><br>
-<a href="..\Blog\2020.08.22\SSL2020.08.22A.html">2020.08.22A&#x7EC4;</a><br>
-<a href="..\Blog\2020.08.23\SSL2020.08.23.html">2020.08.23A&#x7EC4;</a><br>
-<a href="..\Blog\2020.08.24\2020.08.24A.html">2020.08.24A&#x7EC4;</a></p>
-<h3 class="mume-header" id="%E6%9D%82%E9%A2%98">&#x6742;&#x9898;</h3>
-
-<p><a href="..\Blog\2020.08.19\LOJ6089.html">LOJ#6089&#x5C0F;Y&#x7684;&#x80CC;&#x5305;&#x8BA1;&#x6570;&#x95EE;&#x9898;</a><br>
-<a href="..\Blog\2020.08.18\POI2018%E6%B0%B4%E7%AE%B1.html">POI2018&#x6C34;&#x7BB1;</a></p>
-<h2 class="mume-header" id="%E6%95%85%E4%BA%8B">&#x6545;&#x4E8B;</h2>
-
-<h3 class="mume-header" id="a">A</h3>
-
-<p>&#x5728;&#x677E;&#x5C71;&#x6E56;&#x96C6;&#x8BAD;&#x8BF4;&#x5B9E;&#x8BDD;&#x662F;&#x6CA1;&#x4EC0;&#x4E48;&#x6C1B;&#x56F4;&#x7684;, &#x800C;&#x4E14;&#x4E5F;&#x4E0D;&#x80FD;&#x8BA4;&#x8BC6;&#x522B;&#x7684;&#x5B66;&#x6821;&#x7684;dalao(&amp;&#x59B9;&#x5B50;). &#x5927;&#x5BB6;&#x517B;&#x751F;&#x7684;&#x517B;&#x751F;, &#x723D;&#x5FEB;&#x6218;&#x6597;&#x7684;&#x723D;&#x5FEB;&#x6218;&#x6597;, &#x53EA;&#x6709;&#x5317;&#x7237;&#x6643;&#x60A0;&#x7740;&#x60F3;&#x9898;&#x7684;&#x8EAB;&#x5F71;&#x683C;&#x683C;&#x4E0D;&#x5165;. &#x9AD8;&#x4E2D;&#x7EC4;&#x7684;&#x7535;&#x8111;&#x5BA4;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x59B9;&#x5B50;, &#x53EA;&#x6709;&#x5076;&#x5C14;&#x6253;&#x6253;&#x521D;&#x4E2D;&#x7EC4;&#x7684;&#x9898;&#x624D;&#x80FD;&#x5728;&#x8BB2;&#x8BC4;&#x7684;&#x65F6;&#x5019;&#x7784;&#x4E24;&#x773C;&#x59B9;&#x5B50;.</p>
-<p>&#x9694;&#x58C1;&#x6709;&#x4E2A;&#x5377;&#x53D1;&#x59B9;&#x5B50;&#x611F;&#x89C9;&#x6D77;&#x661F;, &#x53EF;&#x80FD;&#x6211;&#x8FD9;&#x8F88;&#x5B50;&#x90FD;&#x9003;&#x4E0D;&#x51FA;&#x5377;&#x53D1;&#x7684;&#x9B54;&#x529B;&#x4E86;?</p>
-<h3 class="mume-header" id="b">B</h3>
-
+<h2 id="题解">题解</h2>
+<h3 id="模拟赛">模拟赛</h3>
+<p><a href="~/Blog/2020.08.17/SSLOJ2020.8.17A.html">2020.08.17A组</a><br>
+<a href="../Blog/2020.08.18/SSLOJ2020.08.18.html">2020.08.18</a><br>
+<a href="//Blog/2020.08.19/SSLOJ2020.08.19.html">2020.08.19</a><br>
+<a href="//Blog/2020.08.20/2020.08.20A.html">2020.08.20A组</a><br>
+<a href="//Blog/2020.08.21/SSLOJ2020.08.21A.html">2020.08.21A组</a><br>
+<a href="//Blog/2020.08.22/SSL2020.08.22A.html">2020.08.22A组</a><br>
+<a href="//Blog/2020.08.23/SSL2020.08.23.html">2020.08.23A组</a><br>
+<a href="//Blog/2020.08.24/2020.08.24A.html">2020.08.24A组</a></p>
+<h3 id="杂题">杂题</h3>
+<p><a href="//Blog/2020.08.19/LOJ6089.html">LOJ#6089小Y的背包计数问题</a><br>
+<a href="//Blog/2020.08.18/POI2018%E6%B0%B4%E7%AE%B1.html">POI2018水箱</a></p>
+<h2 id="故事">故事</h2>
+<h3 id="a">A</h3>
+<p>在松山湖集训说实话是没什么氛围的, 而且也不能认识别的学校的dalao(&amp;妹子). 大家养生的养生, 爽快战斗的爽快战斗, 只有北爷晃悠着想题的身影格格不入. 高中组的电脑室完全没有妹子, 只有偶尔打打初中组的题才能在讲评的时候瞄两眼妹子.</p>
+<p>隔壁有个卷发妹子感觉海星, 可能我这辈子都逃不出卷发的魔力了?</p>
+<h3 id="b">B</h3>
 <center>
-<p><img src="files/OI%E7%94%9F%E6%B6%AF.JPG" alt></p>
+<p><img src="file:////home/mxr612/Git/github.com/mxr612/MXR612.github.io/Index/files/OI%E7%94%9F%E6%B6%AF.JPG" alt=""></p>
 </center>
-<p>&#x5230;&#x8FD9;&#x4E2A;&#x590F;&#x672B;, &#x6211;&#x7684;OI&#x751F;&#x6DAF;&#x5DF2;&#x7ECF;&#x8D70;&#x8FC7;&#x5C06;&#x8FD1;&#x4E09;&#x5E74;. &#x524D;&#x4E24;&#x5E74;&#x662F;&#x6BEB;&#x65E0;&#x611F;&#x89C9;&#x7684;, &#x4E0D;&#x77E5;&#x5929;&#x9AD8;&#x5730;&#x539A;&#x6240;&#x4EE5;&#x4E5F;&#x6CA1;&#x6709;&#x4E1D;&#x6BEB;&#x7D27;&#x5F20;. &#x90A3;&#x65F6;&#x7684;&#x6211;&#x5BF9;&#x672A;&#x6765;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x8BA4;&#x77E5;,&#x4EE5;&#x4E3A;&#x8F7B;&#x677E;&#x8003;&#x4E0A;&#x91CD;&#x70B9;&#x9AD8;&#x4E2D;&#x5C31;&#x5DF2;&#x7ECF;&#x662F;&#x80DC;&#x5229;.</p>
-<p>&#x81EA;&#x4ECE;&#x4E0A;&#x4E2A;&#x590F;&#x5929;&#x5728;&#x7EAA;&#x4E2D;&#x89C1;&#x8BC6;&#x4E86;dalao&#x4E4B;&#x540E;, &#x5C31;&#x4E00;&#x76F4;&#x5728;&#x62B1;&#x6028;&#x8FC7;&#x53BB;&#x6CA1;&#x6709;&#x597D;&#x597D;&#x5B66;&#x4E60;, &#x4E00;&#x76F4;&#x5728;&#x6050;&#x60E7;&#x81EA;&#x5DF1;&#x7684;&#x5C06;&#x6765;&#x4F1A;&#x5982;&#x4F55;, &#x540C;&#x65F6;&#x4E5F;&#x4E00;&#x76F4;&#x8BA9;&#x5C06;&#x6765;&#x7684;&#x81EA;&#x5DF1;&#x540E;&#x6094;.</p>
-<p>&#x73B0;&#x5728;&#x8DDD;&#x79BB;&#x5F00;&#x5B66;&#x5DF2;&#x7ECF;&#x53EA;&#x5269;&#x534A;&#x5468;&#x4E86;, &#x6211;&#x8FD8;&#x5728;&#x8003;&#x8651;&#x662F;&#x4E0D;&#x662F;&#x505C;&#x8BFE;&#x6216;&#x8005;&#x4F11;&#x5B66;&#x6765;&#x5B66;OI. &#x7B80;&#x5355;&#x60F3;&#x6765;&#x4F11;&#x5B66;&#x786E;&#x5B9E;&#x662F;&#x6CA1;&#x4EC0;&#x4E48;&#x635F;&#x5931;&#x7684;, &#x591A;&#x4E86;&#x6574;&#x6574;&#x4E00;&#x5E74;&#x5B66;OI&#x7684;&#x65F6;&#x95F4;, &#x660E;&#x5E74;&#x8FD8;&#x80FD;&#x7EE7;&#x7EED;&#x8BFB;&#x9AD8;&#x4E8C;. &#x4F46;&#x662F;&#x8FD9;&#x4E00;&#x5E74;&#x5230;&#x5E95;&#x662F;&#x594B;&#x6597;&#x8FD8;&#x662F;&#x9893;&#x5E9F;, &#x6211;&#x5E76;&#x6CA1;&#x6709;&#x4FE1;&#x5FC3;.<br>
-&#x518D;&#x8BF4;, &#x5C31;&#x7B97;&#x8FD9;&#x4E00;&#x5E74;&#x6211;&#x518D;&#x5982;&#x4F55;&#x8FDB;&#x6B65;, &#x6211;&#x80FD;&#x8FBE;&#x5230;&#x4E00;&#x4E2A;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x9AD8;&#x5EA6;, &#x6211;&#x80FD;&#x4E3A;&#x81EA;&#x5DF1;&#x4E89;&#x53D6;&#x5230;&#x4EC0;&#x4E48;? &#x547D;&#x8FD0;&#x5DF2;&#x7ECF;&#x7737;&#x987E;&#x8FC7;&#x6211;&#x4E00;&#x6B21;, &#x6211;&#x53C8;&#x5982;&#x4F55;&#x80FD;&#x518D;&#x4E00;&#x6B21;&#x4E5E;&#x6C42;&#x5979;&#x7684;&#x7737;&#x987E;.</p>
-<p>&#x8FD9;&#x6837;&#x7684;&#x60F3;&#x6CD5;&#x662F;&#x4E00;&#x79CD;&#x9003;&#x907F;&#x5417;? &#x5230;&#x5E95;&#x662F;&#x8FFD;&#x9010;&#x68A6;&#x60F3;&#x8FD8;&#x662F;&#x8D2A;&#x56FE;&#x4E00;&#x4E2A;&#x4EBA;&#x5F85;&#x5728;&#x7535;&#x8111;&#x5BA4;&#x7684;&#x5B89;&#x9038;? &#x6211;&#x773C;&#x4E2D;&#x7684;&#x90A3;&#x4E9B;&#x52AA;&#x529B;, &#x662F;&#x771F;&#x7684;&#x52AA;&#x529B;&#x4E86;&#x5417;? &#x8FD8;&#x662F;&#x5728;&#x6B3A;&#x9A97;&#x81EA;&#x5DF1;&#x8EB2;&#x5728;&#x5B89;&#x5168;&#x533A;?</p>
-<p>&#x6216;&#x8BB8;&#x6211;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#x53CD;&#x53CD;&#x590D;&#x590D;&#x7684;&#x4EBA;, &#x4E00;&#x76F4;&#x62D6;&#x5EF6;&#x5230;&#x4E00;&#x5207;&#x90FD;&#x7ED3;&#x675F;&#x624D;&#x5F97;&#x5230;&#x552F;&#x4E00;&#x7684;&#x5B9A;&#x8BBA;: &#x540E;&#x6094;.</p>
-<h3 class="mume-header" id="c">C</h3>
+<p>到这个夏末, 我的OI生涯已经走过将近三年. 前两年是毫无感觉的, 不知天高地厚所以也没有丝毫紧张. 那时的我对未来完全没有认知,以为轻松考上重点高中就已经是胜利.</p>
+<p>自从上个夏天在纪中见识了dalao之后, 就一直在抱怨过去没有好好学习, 一直在恐惧自己的将来会如何, 同时也一直让将来的自己后悔.</p>
+<p>现在距离开学已经只剩半周了, 我还在考虑是不是停课或者休学来学OI. 简单想来休学确实是没什么损失的, 多了整整一年学OI的时间, 明年还能继续读高二. 但是这一年到底是奋斗还是颓废, 我并没有信心.
+再说, 就算这一年我再如何进步, 我能达到一个什么样的高度, 我能为自己争取到什么? 命运已经眷顾过我一次, 我又如何能再一次乞求她的眷顾.</p>
+<p>这样的想法是一种逃避吗? 到底是追逐梦想还是贪图一个人待在电脑室的安逸? 我眼中的那些努力, 是真的努力了吗? 还是在欺骗自己躲在安全区?</p>
+<p>或许我就是这样反反复复的人, 一直拖延到一切都结束才得到唯一的定论: 后悔.</p>
+<h3 id="c">C</h3>
+<p>这两天跟挺多人谈起这件事, 教练, 北爷, 老妈, 展鹏...... 感谢大家给我提的意见.</p>
+<p>我决定让老妈跟学校谈谈这件事, 不管最后结果是怎样的, 我都想去做这件事. 不是说青春就要用来犯错, 而是去做让自己以后想起不会后悔的事情.</p>
+<p>现在我要做的事情是, 了解好自己将要做的事情. 这一年要参加什么比赛, 参加什么集训, 什么时候该做什么. 我还要学什么知识点, 用怎样的速度补齐他们, 怎样安排私教的十节课.</p>
+<p>不能再让自己漫无目的地向前了, 如果给我一个明确的, 足够近的目标, 我大概才能坚定地前进.</p>
+<h3 id="d">D</h3>
+<p>距离开学越来越近了, 一直以来逃避的事情照常逼近我的生活. 完全没打算写的暑假作业, 头发留到了绝对会被骂的长度, 整个暑假一事无成的懊恼......</p>
+<p>已经到了完全不愿意面对任何事情的地步, 整整一天把自己埋在游戏中, 什么都不愿意想, 脾气也变得暴躁. 不想上学, 不想接受新的班级, 不想面对任何人. 明明不去面对的事情, 终有一天必须面对, 可还是贪图那锅温水.</p>
+<p>不对, 水温不对! 我总是这样说. 最后两天了, 不论如何都要把事情弄明白了. 就算是再拖延一会面对......</p>
 
-<p>&#x8FD9;&#x4E24;&#x5929;&#x8DDF;&#x633A;&#x591A;&#x4EBA;&#x8C08;&#x8D77;&#x8FD9;&#x4EF6;&#x4E8B;, &#x6559;&#x7EC3;, &#x5317;&#x7237;, &#x8001;&#x5988;, &#x5C55;&#x9E4F;...... &#x611F;&#x8C22;&#x5927;&#x5BB6;&#x7ED9;&#x6211;&#x63D0;&#x7684;&#x610F;&#x89C1;.</p>
-<p>&#x6211;&#x51B3;&#x5B9A;&#x8BA9;&#x8001;&#x5988;&#x8DDF;&#x5B66;&#x6821;&#x8C08;&#x8C08;&#x8FD9;&#x4EF6;&#x4E8B;, &#x4E0D;&#x7BA1;&#x6700;&#x540E;&#x7ED3;&#x679C;&#x662F;&#x600E;&#x6837;&#x7684;, &#x6211;&#x90FD;&#x60F3;&#x53BB;&#x505A;&#x8FD9;&#x4EF6;&#x4E8B;. &#x4E0D;&#x662F;&#x8BF4;&#x9752;&#x6625;&#x5C31;&#x8981;&#x7528;&#x6765;&#x72AF;&#x9519;, &#x800C;&#x662F;&#x53BB;&#x505A;&#x8BA9;&#x81EA;&#x5DF1;&#x4EE5;&#x540E;&#x60F3;&#x8D77;&#x4E0D;&#x4F1A;&#x540E;&#x6094;&#x7684;&#x4E8B;&#x60C5;.</p>
-<p>&#x73B0;&#x5728;&#x6211;&#x8981;&#x505A;&#x7684;&#x4E8B;&#x60C5;&#x662F;, &#x4E86;&#x89E3;&#x597D;&#x81EA;&#x5DF1;&#x5C06;&#x8981;&#x505A;&#x7684;&#x4E8B;&#x60C5;. &#x8FD9;&#x4E00;&#x5E74;&#x8981;&#x53C2;&#x52A0;&#x4EC0;&#x4E48;&#x6BD4;&#x8D5B;, &#x53C2;&#x52A0;&#x4EC0;&#x4E48;&#x96C6;&#x8BAD;, &#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x8BE5;&#x505A;&#x4EC0;&#x4E48;. &#x6211;&#x8FD8;&#x8981;&#x5B66;&#x4EC0;&#x4E48;&#x77E5;&#x8BC6;&#x70B9;, &#x7528;&#x600E;&#x6837;&#x7684;&#x901F;&#x5EA6;&#x8865;&#x9F50;&#x4ED6;&#x4EEC;, &#x600E;&#x6837;&#x5B89;&#x6392;&#x79C1;&#x6559;&#x7684;&#x5341;&#x8282;&#x8BFE;.</p>
-<p>&#x4E0D;&#x80FD;&#x518D;&#x8BA9;&#x81EA;&#x5DF1;&#x6F2B;&#x65E0;&#x76EE;&#x7684;&#x5730;&#x5411;&#x524D;&#x4E86;, &#x5982;&#x679C;&#x7ED9;&#x6211;&#x4E00;&#x4E2A;&#x660E;&#x786E;&#x7684;, &#x8DB3;&#x591F;&#x8FD1;&#x7684;&#x76EE;&#x6807;, &#x6211;&#x5927;&#x6982;&#x624D;&#x80FD;&#x575A;&#x5B9A;&#x5730;&#x524D;&#x8FDB;.</p>
-<h3 class="mume-header" id="d">D</h3>
-
-<p>&#x8DDD;&#x79BB;&#x5F00;&#x5B66;&#x8D8A;&#x6765;&#x8D8A;&#x8FD1;&#x4E86;, &#x4E00;&#x76F4;&#x4EE5;&#x6765;&#x9003;&#x907F;&#x7684;&#x4E8B;&#x60C5;&#x7167;&#x5E38;&#x903C;&#x8FD1;&#x6211;&#x7684;&#x751F;&#x6D3B;. &#x5B8C;&#x5168;&#x6CA1;&#x6253;&#x7B97;&#x5199;&#x7684;&#x6691;&#x5047;&#x4F5C;&#x4E1A;, &#x5934;&#x53D1;&#x7559;&#x5230;&#x4E86;&#x7EDD;&#x5BF9;&#x4F1A;&#x88AB;&#x9A82;&#x7684;&#x957F;&#x5EA6;, &#x6574;&#x4E2A;&#x6691;&#x5047;&#x4E00;&#x4E8B;&#x65E0;&#x6210;&#x7684;&#x61CA;&#x607C;......</p>
-<p>&#x5DF2;&#x7ECF;&#x5230;&#x4E86;&#x5B8C;&#x5168;&#x4E0D;&#x613F;&#x610F;&#x9762;&#x5BF9;&#x4EFB;&#x4F55;&#x4E8B;&#x60C5;&#x7684;&#x5730;&#x6B65;, &#x6574;&#x6574;&#x4E00;&#x5929;&#x628A;&#x81EA;&#x5DF1;&#x57CB;&#x5728;&#x6E38;&#x620F;&#x4E2D;, &#x4EC0;&#x4E48;&#x90FD;&#x4E0D;&#x613F;&#x610F;&#x60F3;, &#x813E;&#x6C14;&#x4E5F;&#x53D8;&#x5F97;&#x66B4;&#x8E81;. &#x4E0D;&#x60F3;&#x4E0A;&#x5B66;, &#x4E0D;&#x60F3;&#x63A5;&#x53D7;&#x65B0;&#x7684;&#x73ED;&#x7EA7;, &#x4E0D;&#x60F3;&#x9762;&#x5BF9;&#x4EFB;&#x4F55;&#x4EBA;. &#x660E;&#x660E;&#x4E0D;&#x53BB;&#x9762;&#x5BF9;&#x7684;&#x4E8B;&#x60C5;, &#x7EC8;&#x6709;&#x4E00;&#x5929;&#x5FC5;&#x987B;&#x9762;&#x5BF9;, &#x53EF;&#x8FD8;&#x662F;&#x8D2A;&#x56FE;&#x90A3;&#x9505;&#x6E29;&#x6C34;.</p>
-<p>&#x4E0D;&#x5BF9;, &#x6C34;&#x6E29;&#x4E0D;&#x5BF9;! &#x6211;&#x603B;&#x662F;&#x8FD9;&#x6837;&#x8BF4;. &#x6700;&#x540E;&#x4E24;&#x5929;&#x4E86;, &#x4E0D;&#x8BBA;&#x5982;&#x4F55;&#x90FD;&#x8981;&#x628A;&#x4E8B;&#x60C5;&#x5F04;&#x660E;&#x767D;&#x4E86;. &#x5C31;&#x7B97;&#x662F;&#x518D;&#x62D6;&#x5EF6;&#x4E00;&#x4F1A;&#x9762;&#x5BF9;......</p>
-
-      </div>
-      
-      
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    </body></html>
+    </body>
+    </html>

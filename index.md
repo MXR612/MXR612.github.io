@@ -1,5 +1,6 @@
 # 这里是mxr612的博客
 
+<!-- title: mxr612 -->
 > 彼は来ましたか
 
 [![](http://cfrating.ihcr.top/?user=MXR612)](https://codeforces.com/profile/MXR612)

@@ -1,12 +1,15 @@
 {
     "files.autoSave": "onFocusChange",
-    "markdown-pdf.convertOnSave": true,
-    "markdown-pdf.type": [
-        "html",
-        "pdf"
-    ],
+    // "markdown-pdf.convertOnSave": true,
+    // "markdown-pdf.type": [
+    //     "html",
+    //     "pdf"
+    // ],
     "markdown-pdf.styles": [
-        "~/Git/github.com/mxr612/GitHubPage/markdown-pdf.css"
+        "~/Git/github.com/mxr612/mxr612.github.io/markdown-pdf.css"
+    ],
+    "markdown.styles": [
+        "markdown-pdf.css"
     ],
     "markdown-preview-enhanced.Domain": "http://mxr612.github.io"
 }

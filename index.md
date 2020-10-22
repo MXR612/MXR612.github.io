@@ -1,7 +1,6 @@
 # 这里是mxr612的博客
 
-<!-- title: mxr612 -->
-> 彼は来ましたか
+> 彼は来ましたか[^1]
 
 [![](http://cfrating.ihcr.top/?user=MXR612)](https://codeforces.com/profile/MXR612)
 
@@ -34,7 +33,7 @@
 [LOJ#6089小Y的背包计数问题](//Blog/2020.08.19/LOJ6089.html)  
 [2020.08.19](//Blog/2020.08.19/SSLOJ2020.08.19.html)  
 [POI2018水箱](//Blog/2020.08.18/POI2018水箱.html)  
-[2020.08.18](//Blog/2020.08.18/SSLOJ2020.08.18.html)  
+[2020.08.18](//Blog2020.08.18/SSLOJ2020.08.18.html)  
 [2020.08.17A组](//Blog/2020.08.17/SSLOJ2020.8.17A.html)  
 
 ## 这里是学习笔记
@@ -48,8 +47,8 @@
 
 <span id="busuanzi_container_site_pv">
     <span id="busuanzi_value_site_pv"></span>
-</span>
-/
-<span id="busuanzi_container_site_uv">
+</span>/<span id="busuanzi_container_site_uv">
   <span id="busuanzi_value_site_uv"></span>
-</span>
+</span>  
+
+[^1]: 那天我在機房學日語, 餘光看到AJ工作室的門開了, 就問旁邊兄弟"他來了嗎?". 然而那時, AJ就在我身後.  

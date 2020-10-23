@@ -9,6 +9,7 @@
         "~/Git/github.com/mxr612/mxr612.github.io/markdown-pdf.css"
     ],
     "markdown.styles": [
+        "github.css",
         "markdown-pdf.css",
     ],
     "markdown-preview-enhanced.Domain": "http://mxr612.github.io",

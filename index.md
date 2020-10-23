@@ -41,8 +41,8 @@
 ## 这里是学习笔记
 
 [~~但是我不喜欢学习~~](Index/板题.html)  
-[Note2020.09.22一点数论](Note/Math/2020.09.22/2020.09.22.html)  
-[2020.10.08求一阶二阶线性递推式通项](Note/Math/2020.10.08/2020.10.08.html)
+[Note2020.09.22一点数论](Note/2020.09.22/2020.09.22.html)  
+[2020.10.08求一阶二阶线性递推式通项](Note/2020.10.08/2020.10.08.html)
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>/<span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>  
 

@@ -2,6 +2,8 @@
 
 > 彼は来ましたか[^1]
 
+[^1]: 那天我在机房学日语, 余光看到AJ工作室的门开了, 就问旁边的兄弟"他来了吗?". 殊不知, 那时AJ就在我身后.
+
 [![](http:/cfrating.ihcr.top/?user=MXR612)](https:/codeforces.com/profile/MXR612)
 
 > [快速旅行到 "友链"](Other/友链.html)  
@@ -43,8 +45,6 @@
 [~~但是我不喜欢学习~~](Index/板题.html)  
 [Note2020.09.22一点数论](Note/2020.09.22/2020.09.22.html)  
 [2020.10.08求一阶二阶线性递推式通项](Note/2020.10.08/2020.10.08.html)  
-[乱七八糟的知识点, 一天学会](Note/2020.10.21/2020.10.21.html)
+[乱七八糟的知识点, 一天学会. 莫比乌斯反演篇~](Note/2020.10.21/2020.10.21.html)
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>/<span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>  
-
-[^1]: 那天我在机房学日语, 余光看到AJ工作室的门开了, 就问旁边的兄弟"他来了吗?". 殊不知, 那时AJ就在我身后.

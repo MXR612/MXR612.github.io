@@ -45,6 +45,6 @@
 [~~但是我不喜欢学习~~](Index/板题.html)  
 [Note2020.09.22一点数论](Note/2020.09.22/2020.09.22.html)  
 [2020.10.08求一阶二阶线性递推式通项](Note/2020.10.08/2020.10.08.html)  
-[乱七八糟的知识点, 一天学会. 莫比乌斯反演篇~](Note/2020.10.21/2020.10.21.html)
+[辣么多的芝士一天学废の莫比乌斯反演篇~](Note/2020.10.21/2020.10.21.html)
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>/<span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>  

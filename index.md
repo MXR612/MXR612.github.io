@@ -15,6 +15,7 @@
 > [快速旅行到 "学习笔记"](#这里是学习笔记)
 
 > 本博客使用markdown編寫, 而後編譯爲HTML. 其中可能會存在各種各樣的鍋, 歡迎大家Chat我QwQ(或者直接[開Issue](https://github.com/MXR612/MXR612.github.io/issues)).
+> 目前的编译器做出来可能有点小, 建议$200\%$食用.
 
 ## 这里是废话
 
@@ -43,8 +44,9 @@
 ## 这里是学习笔记
 
 [~~但是我不喜欢学习~~](Index/板题.html)  
-[Note2020.09.22一点数论](Note/2020.09.22/2020.09.22.html)  
-[2020.10.08求一阶二阶线性递推式通项](Note/2020.10.08/2020.10.08.html)  
-[辣么多的芝士一天学废の莫比乌斯反演篇~](Note/2020.10.21/2020.10.21.html)
+[Sept22.2020 一点数论](Note/2020.09.22/2020.09.22.html)  
+[Oct08.2020 求一阶二阶线性递推式通项](Note/2020.10.08/2020.10.08.html)  
+[Oct21.2020 辣么多的芝士一天学废の莫比乌斯反演篇~](Note/2020.10.21/2020.10.21.html)  
+[Ocr25.2020 奇怪的计数增加了](Note/2020.10.25/2020.10.25.html)  
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span>/<span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span>  
